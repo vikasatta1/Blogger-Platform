@@ -1,5 +1,6 @@
 import React from 'react';
 import {blogs} from "../redux/blogs";
+import BlogItem from "../components/blogItem/BlogItem";
 
 const HomeBlogs = () => {
     return (
@@ -18,17 +19,18 @@ const HomeBlogs = () => {
                 </select>
             </div>
             <div className={'blogs'}>
-              {/*  {blogs.map(b =>
+              {blogs.map(b =>
                     <BlogItem
                         key={b.id}
                         id={b.id}
                         name={b.name}
                         description={b.description}
                         websiteUrl={b.websiteUrl}
-                    />)}*/}
+                    />)}
+
             </div>
             </div>
-            <div className={'button'}>
+            <div className={'button-wrap'}>
                 <button>Show more</button>
             </div>
 
