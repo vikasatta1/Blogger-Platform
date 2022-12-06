@@ -1,0 +1,19 @@
+.main-header {
+  margin: 3rem 0 2rem 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  border-bottom: 1px solid #DEDBDC;
+  h2 {
+    margin: 0 0 10px 0;
+  }
+}
+
+.search{
+  margin-top: 2.3rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
