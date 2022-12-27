@@ -3,7 +3,8 @@
 
 
 .App{
-
+    font-family: 'Inter', serif;
+    font-style: normal;
     width: 80%;
     margin: 0 auto;
 }
@@ -23,6 +24,12 @@
 ///////////common
 .page-content{
     margin-right: 6.4rem;
+}
+.grey-text{
+    color: $color-greyText;
+}
+.page-contentPost{
+
 }
 .button-wrap{
     display: flex;
