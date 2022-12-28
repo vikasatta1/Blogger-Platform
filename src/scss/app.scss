@@ -28,12 +28,19 @@
 .grey-text{
     color: $color-greyText;
 }
+.vector-button{
+    color: #1A1718;
+    margin-bottom: 1px;
+
+}
+
 .page-contentPost{
 
 }
 .button-wrap{
     display: flex;
   justify-content: center;
+
     button{
         font-weight: bold;
         font-size: 16px;

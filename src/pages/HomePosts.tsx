@@ -1,6 +1,7 @@
 import React from 'react';
 import PostItem from "../components/postItem/PostItem";
 import {posts} from "../redux/posts";
+import vector from '../assets/vector-button.svg'
 
 const HomePosts = () => {
     return (
@@ -31,7 +32,7 @@ const HomePosts = () => {
             </div>
             </div>
             <div className={'button-wrap'}>
-                <button>Show more</button>
+                <button>Show more <img  className={'vector-button'} src={vector} alt={'vector'}/></button>
             </div>
 
         </>

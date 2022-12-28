@@ -20,7 +20,7 @@ function App() {
                         <Route path={'/blogs'} element={<HomeBlogs/>}/>
                         <Route path={'/posts'} element={<HomePosts/>}/>
                     </Routes>
-                 {/*   <PostPage/>*/}
+                    {/*<PostPage/>*/}
                 </div>
             </div>
 
