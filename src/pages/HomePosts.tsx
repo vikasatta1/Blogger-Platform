@@ -30,6 +30,10 @@ const HomePosts = () => {
                 }
             </div>
             </div>
+            <div className={'button-wrap'}>
+                <button>Show more</button>
+            </div>
+
         </>
     );
 };

@@ -5,6 +5,7 @@ import './scss/app.scss';
 import HomePosts from "./pages/HomePosts";
 import Header from "./components/header/Header";
 import Navigation from "./components/navigation/Navigation";
+import PostPage from "./pages/postPage";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                         <Route path={'/blogs'} element={<HomeBlogs/>}/>
                         <Route path={'/posts'} element={<HomePosts/>}/>
                     </Routes>
+                 {/*   <PostPage/>*/}
                 </div>
             </div>
 

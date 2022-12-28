@@ -21,11 +21,7 @@
   height: 30rem;
   display: flex;
   flex-direction: column;
-  margin: 0 0 2rem 2rem;
-  //на сапорте уточнить как убрать отступ у крайнего элемента
-  &:last-child {
-    margin-right: 0;
-  }
+  margin: 0 3rem 2rem 0;
 
   .postItem-imgBig {
     height: 20rem;
