@@ -18,19 +18,19 @@ const PostPage = () => {
                     <img src={arrowLeft} alt={'arrowLeft'} className={'arrowLeft'}/>
                     <p>Back to posts</p>
                 </div>
-                <div className={'description-blog'}>
+                <div className={'description-post'}>
                     <div className={'logo-small'}>
                     </div>
-                    <p className={'description-blog__p'}>
+                    <p className={'description-post__p'}>
                         Back-end blog
                     </p>
                 </div>
-                <div className="options-blog">
-                    <div className="options-blog__name">
+                <div className="options-post">
+                    <div className="options-post__name">
                         <h2>First day at the office</h2>
                         <p>(for public posts)</p>
                     </div>
-                    <div className="options-blog__date">
+                    <div className="options-post__date">
                         <p>12/12/2022 at 15:46:22</p>
                     </div>
 
@@ -38,7 +38,7 @@ const PostPage = () => {
                 <div className={'banner_post-page'}>
 
                 </div>
-                <div className={'blog-text'}>
+                <div className={'post-text'}>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, magna felis vestibulum metus aptent
                         velit,
                         tempor posuere natoque habitasse phasellus dignissim.</p>

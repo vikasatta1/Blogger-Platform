@@ -7,12 +7,12 @@
   background: #fff;
 }
 
-.description-blog {
+.description-post {
   display: flex;
   align-items: center;
   margin-bottom: 4.5rem;
 
-  .description-blog__p {
+  .description-post__p {
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 600;
@@ -29,8 +29,8 @@
   }
 }
 
-.options-blog {
-  .options-blog__date{
+.options-post {
+  .options-post__date{
     font-family: 'Inter',serif;
     font-style: normal;
     font-weight: 400;
@@ -39,7 +39,7 @@
     letter-spacing: 0.02em;
     color: $neutral-Dark-plus30;
   }
-  .options-blog__name {
+  .options-post__name {
     display: flex;
     align-items: center;
     margin-bottom: 0.8rem;
@@ -65,7 +65,7 @@
     line-height: 24px;
   }
 }
-.blog-text{
+.post-text{
   p{
     font-family: 'Inter',serif;
     font-style: normal;
