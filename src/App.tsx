@@ -15,12 +15,12 @@ function App() {
             <div className={"content"}>
                 <Navigation/>
                 <div className={'main'}>
-                    <Routes>
+                    {/* <Routes>
                         <Route path={'/'} element={<HomeBlogs/>}/>
                         <Route path={'/blogs'} element={<HomeBlogs/>}/>
                         <Route path={'/posts'} element={<HomePosts/>}/>
-                    </Routes>
-                    {/*<PostPage/>*/}
+                    </Routes>*/}
+                    <PostPage/>
                 </div>
             </div>
 
