@@ -11,7 +11,7 @@ const HomeBlogs = () => {
             </div>
             <div className={'page-content'}>
             <div className={'search'}>
-                <input/>
+                <input className={'input-blogs'} placeholder={'Search'} />
                 <select>
                     <option value="value1">New blogs first</option>
                     <option value="value2">Old blogs first</option>

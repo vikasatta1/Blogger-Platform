@@ -1,9 +1,11 @@
 import React from 'react';
-
+import {useNavigate, useParams} from "react-router-dom";
 import vector from '../assets/vector-button.svg';
 import arrowLeft from "../assets/arrow-left.svg";
 
 const BlogPage = () => {
+    const navigate = useNavigate()
+    const {id} = useParams()
     return (
         <>
             <div className={'main-header'}>
@@ -117,6 +119,9 @@ const BlogPage = () => {
 
 
             </div>
+            </div>
+            <div className={'button-wrap'}>
+                <button>Show more <img  className={'vector-button'} src={vector} alt={'vector'}/></button>
             </div>
         </>
     );

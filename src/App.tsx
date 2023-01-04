@@ -6,6 +6,7 @@ import HomePosts from "./pages/HomePosts";
 import Header from "./components/header/Header";
 import Navigation from "./components/navigation/Navigation";
 import BlogPage from "./pages/BlogPage";
+import PostPage from "./pages/PostPage";
 
 
 function App() {
@@ -15,13 +16,13 @@ function App() {
             <div className={"content"}>
                 <Navigation/>
                 <div className={'main'}>
-                     <Routes>
+                    <Routes>
                         <Route path={'/'} element={<HomeBlogs/>}/>
                         <Route path={'/blogs'} element={<HomeBlogs/>}/>
                         <Route path={'/posts'} element={<HomePosts/>}/>
+                        <Route path={'blog/:id'} element={<BlogPage/>}/>
+                        <Route path={'post/:id'} element={<PostPage/>}/>
                     </Routes>
-                   {/* <PostPage/>
-                    <BlogPage/>*/}
                 </div>
             </div>
 

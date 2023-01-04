@@ -16,3 +16,28 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.input-blogs{
+  height: 36px;
+  flex-basis: 71%;
+  border: 1px solid #DEDBDC;
+  border-radius: 2px;
+  font-family: 'Inter',serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+select{
+  flex-basis: 28%;
+  border: 1px solid #DEDBDC;
+  border-radius: 2px;
+  height: 36px;
+  option{
+    height: 36px;
+    font-family: 'Inter',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
