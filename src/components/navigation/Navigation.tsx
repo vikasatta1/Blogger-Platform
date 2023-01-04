@@ -15,18 +15,19 @@ const Navigation = () => {
     return (
         <div className={'navigation'}>
 
-            <NavLink to={'blogs'}><div className={'blogsNav'} onClick={setActiveBlogsLinkHandler}>
-                <BlogsIcon fill={activeLink === 'blogs' ? '#F8346B'   :'#1A1718'}/>
-                <p className={activeLink === 'blogs' ? 'active' : ''}>Blogs</p>
-            </div>
+            <NavLink to={'blogs'}>
+                <div className={'blogsNav'} onClick={setActiveBlogsLinkHandler}>
+                    <BlogsIcon fill={activeLink === 'blogs' ? '#F8346B' : '#1A1718'}/>
+                    <p className={activeLink === 'blogs' ? 'active' : ''}>Blogs</p>
+                </div>
             </NavLink>
 
 
             <NavLink to={'posts'} onClick={setActivePostsLinkHandler}>
                 <div className={'posts'}>
-                <PostIcon fill={activeLink === 'posts' ? '#F8346B'   :'#1A1718'}/>
-                <p className={activeLink === 'posts' ? 'active' : ''}>Posts</p>
-            </div>
+                    <PostIcon fill={activeLink === 'posts' ? '#F8346B' : '#1A1718'}/>
+                    <p className={activeLink === 'posts' ? 'active' : ''}>Posts</p>
+                </div>
             </NavLink>
         </div>
     );
