@@ -1,6 +1,7 @@
 import React from 'react';
-import {postType} from "../../../redux/posts";
+
 import {NavLink} from "react-router-dom";
+import {postType} from "../../redux/posts-reducer";
 
 const PostForBlogItemPage = ({id, blogId, blogName, shortDescription, createdAt, content, title}:postType) => {
     return (

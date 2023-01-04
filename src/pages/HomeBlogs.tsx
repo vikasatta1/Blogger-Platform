@@ -1,6 +1,6 @@
 import React from 'react';
 import {blogs} from "../redux/blogs";
-import BlogItem from "../components/blog/blogItem/BlogItem";
+import BlogItem from "../components/blog/BlogItem";
 import vector from "../assets/vector-button.svg";
 
 const HomeBlogs = () => {

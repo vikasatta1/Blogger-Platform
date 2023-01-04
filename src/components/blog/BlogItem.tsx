@@ -1,5 +1,5 @@
 import React from 'react';
-import {blogType} from "../../../redux/blogs";
+import {blogType} from "../../redux/blogs";
 import {NavLink} from "react-router-dom";
 
 const BlogItem = ({id, name, description, websiteUrl}: blogType) => {
