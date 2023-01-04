@@ -1,8 +1,6 @@
 import React from 'react';
-import {useNavigate, useParams} from "react-router-dom";
 import vector from '../assets/vector-button.svg';
 import arrowLeft from "../assets/arrow-left.svg";
-import {blogs} from "../redux/blogs";
 import PostForBlogItemPage from "../components/blog/post-for-blog-item-page/Post-for-blog-item-page";
 import {posts} from "../redux/posts";
 
