@@ -209,3 +209,17 @@
   }
 }
 
+.link-back__blog-page {
+  display: flex;
+  margin-bottom: 1.2rem;
+
+  p {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: $neutral-Dark-60
+  }
+}
+
