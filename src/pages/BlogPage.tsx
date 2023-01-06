@@ -1,5 +1,5 @@
 import React from 'react';
-import vector from '../assets/vector-button.svg';
+import vector from '../assets/rectangle-right.svg';
 import arrowLeft from "../assets/arrow-left.svg";
 import PostForBlogItemPage from "../components/blog/Post-for-blog-item-page";
 import {useParams} from "react-router-dom";
