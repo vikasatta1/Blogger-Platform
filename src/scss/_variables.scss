@@ -7,3 +7,46 @@ $color-greyText:#797476;
 /* Neutral Dark/+30 */
 
 $neutral-Dark-plus30:#797476;
+
+%normal-400-14-24 {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+%normal-400-12-16 {
+  font-family: 'Inter',serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+ %normal-400-16-24 {
+   font-family: 'Inter',serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1.6rem;
+   line-height: 2.4rem;
+ }
+%normal-500-20-24 {
+  font-family: 'Inter',serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.4rem;
+ }
+%normal-600-22-24 {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 2.4rem;
+ }
+%normal-600-16-24 {
+  font-family: 'Inter',serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+ }

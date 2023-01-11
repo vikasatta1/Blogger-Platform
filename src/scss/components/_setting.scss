@@ -1,3 +1,4 @@
+@import '../variables';
 .setting-modal_blog {
   position: absolute;
   background: #FCFBFB;
@@ -11,11 +12,7 @@
   flex-direction: column;
 
   p {
-    font-family: 'Inter', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    @extend %normal-400-14-24;
     color: #1A1718;
     padding-top: 0.7rem;
     margin-left: 1.7rem;

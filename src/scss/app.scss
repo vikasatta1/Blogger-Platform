@@ -1,5 +1,6 @@
 @import './libs/normalize.scss';
 @import './components/all.scss';
+@import "variables";
 
 
 .App {
@@ -52,22 +53,14 @@
   display: flex;
   align-items: center;
   p{
-    font-family: 'Inter',serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
+    @extend %normal-400-12-16;
   }
 }
 .link-back{
   display: flex;
   margin-bottom: 3.6rem ;
   p{
-    font-family: 'Inter',serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    @extend %normal-400-14-24;
     color:$neutral-Dark-60
   }
 }
@@ -95,7 +88,7 @@
 
   button {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.6rem;
     width: 153px;
     height: 36px;
     border-radius: 2px;

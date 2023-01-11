@@ -1,26 +1,27 @@
-.wrap-posts{
+@import '../variables';
+
+.wrap-posts {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
   margin-right: 3.4rem;
 }
-.select{
-margin: 2.3rem 6.4rem 2.4rem 0;
+
+.select {
+  margin: 2.3rem 6.4rem 2.4rem 0;
   display: flex;
-  justify-content:end;
+  justify-content: end;
 }
-select{
+
+select {
   flex-basis: 28%;
   border: 1px solid #DEDBDC;
   border-radius: 2px;
   height: 36px;
-  option{
+
+  option {
     height: 36px;
-    font-family: 'Inter',serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    @extend %normal-400-14-24;
   }
 }

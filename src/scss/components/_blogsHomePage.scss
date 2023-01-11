@@ -1,43 +1,38 @@
+@import "../variables";
+
 .main-header {
   margin: 3rem 0 2rem 0;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  @extend %normal-500-20-24;
   border-bottom: 1px solid #DEDBDC;
+
   h2 {
     margin: 0 0 10px 0;
   }
 }
 
-.search{
+.search {
   margin: 2.3rem 0 2.4rem 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.input-blogs{
+
+.input-blogs {
   height: 36px;
   flex-basis: 71%;
   border: 1px solid #DEDBDC;
   border-radius: 2px;
-  font-family: 'Inter',serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  @extend %normal-400-14-24;
 }
-select{
+
+select {
   flex-basis: 28%;
   border: 1px solid #DEDBDC;
   border-radius: 2px;
   height: 36px;
-  option{
+
+  option {
     height: 36px;
-    font-family: 'Inter',serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    @extend %normal-400-14-24;
   }
 }
